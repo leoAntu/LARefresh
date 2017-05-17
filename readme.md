@@ -1,14 +1,18 @@
 ####项目背景
+
 在实际开发中，产品对刷新的视觉效果越来越高，最常见的就是动画效果。
 本项目继承MJRefresh，让上拉，下拉，更好的自定义动画效果。
 
+
 ####支持pod
+
 
 ```
 pod "LARefresh"
 ```
 
 ####使用说明
+
 
 ```
    self.tableView.mj_header = [LARefreshHeader headerWithRefreshingBlock:^{
@@ -17,6 +21,8 @@ pod "LARefresh"
     self.tableView.mj_footer = [LARefreshFooter footerWithRefreshingBlock:^{
           }];
 ```
+
+
 ####实际效果图
 
 下拉加载效果图：
@@ -31,5 +37,7 @@ pod "LARefresh"
 
 
 ####自定义图片
+
+
 将图片放入Bundle文件夹即可。
 
