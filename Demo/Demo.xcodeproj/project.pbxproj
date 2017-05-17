@@ -14,6 +14,7 @@
 		B33375391ECBF94200115D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33375381ECBF94200115D83 /* Assets.xcassets */; };
 		B333753C1ECBF94200115D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B333753A1ECBF94200115D83 /* LaunchScreen.storyboard */; };
 		B33375461ECBFACF00115D83 /* LARefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B33375451ECBFACF00115D83 /* LARefreshHeader.m */; };
+		B33375491ECC001600115D83 /* LARefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B33375481ECC001600115D83 /* LARefreshFooter.m */; };
 		FE293D2326A9B6E10F78EB57 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06AF0BC8371E275940722A /* libPods-Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		B333753D1ECBF94200115D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B33375441ECBFACF00115D83 /* LARefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARefreshHeader.h; sourceTree = "<group>"; };
 		B33375451ECBFACF00115D83 /* LARefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARefreshHeader.m; sourceTree = "<group>"; };
+		B33375471ECC001600115D83 /* LARefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARefreshFooter.h; sourceTree = "<group>"; };
+		B33375481ECC001600115D83 /* LARefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARefreshFooter.m; sourceTree = "<group>"; };
 		F53D812B880F1CAADB29AC2A /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +113,8 @@
 		B33375431ECBFACF00115D83 /* LARefresh */ = {
 			isa = PBXGroup;
 			children = (
+				B33375471ECC001600115D83 /* LARefreshFooter.h */,
+				B33375481ECC001600115D83 /* LARefreshFooter.m */,
 				B33375441ECBFACF00115D83 /* LARefreshHeader.h */,
 				B33375451ECBFACF00115D83 /* LARefreshHeader.m */,
 			);
@@ -238,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33375491ECC001600115D83 /* LARefreshFooter.m in Sources */,
 				B33375341ECBF94200115D83 /* ViewController.m in Sources */,
 				B33375461ECBFACF00115D83 /* LARefreshHeader.m in Sources */,
 				B33375311ECBF94200115D83 /* AppDelegate.m in Sources */,
@@ -398,6 +404,7 @@
 				B33375421ECBF94200115D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
