@@ -9,6 +9,6 @@
 #import "MJRefreshFooter.h"
 #import "MJRefreshAutoFooter.h"
 
-@interface BFRefreshFooter : MJRefreshAutoFooter
+@interface LARefreshFooter : MJRefreshAutoFooter
 
 @end

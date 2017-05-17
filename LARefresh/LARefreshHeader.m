@@ -7,14 +7,14 @@
 //  Copyright © 2016年 QuanYan. All rights reserved.
 //
 
-#import "BFRefreshHeader.h"
+#import "LARefreshHeader.h"
 
 #define  BF_SCREEN_WIDTH                                        ([UIScreen mainScreen].bounds.size.width)
 #define  BF_SCREEN_HEIGHT                                       ([UIScreen mainScreen].bounds.size.height)
 #define  CONTENVIEW_HEIGH  54.0f
 #define  SLOGANVIEW_HEIGH  45.0f
 
-@interface BFRefreshHeader()
+@interface LARefreshHeader()
 
 /** 所有状态对应的动画图片 */
 @property (strong, nonatomic) NSMutableDictionary *stateImages;
@@ -30,7 +30,7 @@
 
 @end
 
-@implementation BFRefreshHeader
+@implementation LARefreshHeader
 
 - (instancetype)initWithStyle:(BFRefreshHeaderStyle)style {
     self = [super init];
@@ -41,7 +41,7 @@
 }
 
 + (instancetype)bf_headerWithRefreshingAtTopBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock {
-    BFRefreshHeader *cmp = [[BFRefreshHeader alloc] initWithStyle:BFRefreshHeaderStyleAtTop];
+    LARefreshHeader *cmp = [[LARefreshHeader alloc] initWithStyle:BFRefreshHeaderStyleAtTop];
     cmp.refreshingBlock = refreshingBlock;
     return cmp;
 }
@@ -66,7 +66,7 @@
 - (void)setPullingPercent:(CGFloat)pullingPercent {
     [super setPullingPercent:pullingPercent];
     
-    NSArray *images = self.stateImages[@(MJRefreshStateRefreshing)];
+//    NSArray *images = self.stateImages[@(MJRefreshStateRefreshing)];
     if ( self.style == BFRefreshHeaderStyleDefault ) {
         NSArray *images = self.stateImages[@(MJRefreshStatePulling)];
         if( pullingPercent <= 1){

@@ -14,7 +14,7 @@ typedef enum {
     BFRefreshHeaderStyleAtTop          = 1,//图片置顶时，下拉放大图片刷新
 }BFRefreshHeaderStyle;
 
-@interface BFRefreshHeader : MJRefreshHeader
+@interface LARefreshHeader : MJRefreshHeader
 
 + (instancetype)bf_headerWithRefreshingAtTopBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock;
 

@@ -6,7 +6,7 @@
 //
 //
 
-#import "BFRefreshFooter.h"
+#import "LARefreshFooter.h"
 
 #define  BF_SCREEN_WIDTH                                        ([UIScreen mainScreen].bounds.size.width)
 #define  BF_SCREEN_HEIGHT                                       ([UIScreen mainScreen].bounds.size.height)
@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, BFRefreshState) {
     BFRefreshStateDidRefresh = 6,//收起加载更多
 };
 
-@interface BFRefreshFooter()
+@interface LARefreshFooter()
 
 /** 所有状态对应的动画图片 */
 @property (strong, nonatomic) NSMutableDictionary *stateImages;
@@ -30,7 +30,7 @@ typedef NS_ENUM(NSUInteger, BFRefreshState) {
 
 @end
 
-@implementation BFRefreshFooter
+@implementation LARefreshFooter
 
 #pragma mark - 公共方法
 - (void)setImages:(NSArray *)images duration:(NSTimeInterval)duration forState:(MJRefreshState)state{
