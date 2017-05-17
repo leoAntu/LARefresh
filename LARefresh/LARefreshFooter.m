@@ -112,7 +112,7 @@ typedef NS_ENUM(NSUInteger, BFRefreshState) {
         case MJRefreshStateRefreshing:
         {
             self.scrollView.mj_insetB = CONTENVIEW_HEIGH;
-
+            self.gifView.hidden = NO;
             self.gifView.animationImages = images;
             self.gifView.animationDuration = [self.stateDurations[@(state)] doubleValue];
             [self.gifView startAnimating];

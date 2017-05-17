@@ -15,6 +15,7 @@
 		B333753C1ECBF94200115D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B333753A1ECBF94200115D83 /* LaunchScreen.storyboard */; };
 		B33375461ECBFACF00115D83 /* LARefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B33375451ECBFACF00115D83 /* LARefreshHeader.m */; };
 		B33375491ECC001600115D83 /* LARefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B33375481ECC001600115D83 /* LARefreshFooter.m */; };
+		B333754B1ECC217400115D83 /* LARefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B333754A1ECC217400115D83 /* LARefresh.bundle */; };
 		FE293D2326A9B6E10F78EB57 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06AF0BC8371E275940722A /* libPods-Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		B33375451ECBFACF00115D83 /* LARefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARefreshHeader.m; sourceTree = "<group>"; };
 		B33375471ECC001600115D83 /* LARefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARefreshFooter.h; sourceTree = "<group>"; };
 		B33375481ECC001600115D83 /* LARefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARefreshFooter.m; sourceTree = "<group>"; };
+		B333754A1ECC217400115D83 /* LARefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LARefresh.bundle; sourceTree = "<group>"; };
 		F53D812B880F1CAADB29AC2A /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		B33375431ECBFACF00115D83 /* LARefresh */ = {
 			isa = PBXGroup;
 			children = (
+				B333754A1ECC217400115D83 /* LARefresh.bundle */,
 				B33375471ECC001600115D83 /* LARefreshFooter.h */,
 				B33375481ECC001600115D83 /* LARefreshFooter.m */,
 				B33375441ECBFACF00115D83 /* LARefreshHeader.h */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B333754B1ECC217400115D83 /* LARefresh.bundle in Resources */,
 				B333753C1ECBF94200115D83 /* LaunchScreen.storyboard in Resources */,
 				B33375391ECBF94200115D83 /* Assets.xcassets in Resources */,
 				B33375371ECBF94200115D83 /* Main.storyboard in Resources */,
