@@ -6,8 +6,7 @@
 //  Copyright © 2016年 QuanYan. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#import <MJRefreshHeader.h>
-
+#import <MJRefresh/MJRefresh.h>
 typedef enum {
     BFRefreshHeaderStyleDefault        = 0,
     BFRefreshHeaderStyleAtTop          = 1,//图片置顶时，下拉放大图片刷新
