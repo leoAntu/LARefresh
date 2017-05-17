@@ -5,7 +5,6 @@
 //  Created by leo on 16/8/31.
 //  Copyright © 2016年 QuanYan. All rights reserved.
 //
-
 #import "LARefreshHeader.h"
 
 #define  BF_SCREEN_WIDTH                                        ([UIScreen mainScreen].bounds.size.width)
