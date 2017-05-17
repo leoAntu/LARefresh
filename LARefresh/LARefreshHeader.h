@@ -1,9 +1,8 @@
 //
-//  BFRefreshHeader.h
+//  LARefreshHeader.h
 //  BigFan
 //
 //  Created by leo on 16/8/31.
-//  Modify  by wans on 16/11/23.
 //  Copyright © 2016年 QuanYan. All rights reserved.
 //
 
