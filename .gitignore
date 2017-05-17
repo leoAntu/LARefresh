@@ -1,0 +1,7 @@
+LARefresh.xcodeproj/xcuserdata/
+LARefresh.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+LARefresh.xcodeproj/project.xcworkspace/xcuserdata/
