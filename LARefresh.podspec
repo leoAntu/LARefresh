@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
-  s.dependency "MJRefresh", "~> 3.1.12"
+  s.dependency "MJRefresh"
 
 end
